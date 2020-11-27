@@ -1,0 +1,16 @@
+body{
+    background-image: url("hogwarts.png");
+    background-size: cover;
+    max-width: 100vw;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-wrapper{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

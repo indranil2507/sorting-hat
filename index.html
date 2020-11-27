@@ -4,43 +4,31 @@
 <head>
     <title>HP Sorting-hat Quiz</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-cover.css">
 </head>
 
 <body>
-    <div class="title"><a href="https://fontmeme.com/harry-potter-font/"><img src="https://fontmeme.com/permalink/200910/f52fb9373b3f4f5eafbfd5910562b0b7.png" alt="harry-potter-font" border="0"></a></div>
-    <div class="quiz-container">
-        
-        <div id="question" class="question"></div>
-        <label class="option">
-            <input type="radio" name="option" value="1" />
-            <span class="option1"></span>
-        </label>
-        <label class="option">
-            <input type="radio" name="option" value="2" />
-            <span class="option2"></span>
-        </label>
-        <label class="option">
-            <input type="radio" name="option" value="3" />
-            <span class="option3"></span>
-        </label>
-        <label class="option">
-            <input type="radio" name="option" value="3" />
-            <span class="option4"></span>
-        </label>
-        <!-- Buttons -->
-        <div class="controls">
-            <button class="previous">Previous</button>
-            <button class="next">Next</button>
-        </div>
-    </div>
-
-    <div class="result">
+    <div class="text-wrapper">
+        <h1 class="heading">
+            Welcome
+        </h1>
+        <p>
+            Hi there, well since you are here you are probably a potter head, So what house do you think you belong in?
+            <br>
+            Are you the all intelligent Ravenclaw who would make Einstein shiver in their presence or just a sweet and adorable Hufflepuff, an ambitious and over achieving Slytherin or A Gryffindor who could take on 10 people with a straight face?
+            <br>
+            Take this quiz to find out.
+        </p>
+        <a href="Quiz.html">
+            <Button class="button" >
+                Take Quiz
+          </Button>
+        </a> 
        
     </div>
 
-    <script src=questions.js></script>
-    <script src="main.js"></script>
 </body>
 
 </html>
