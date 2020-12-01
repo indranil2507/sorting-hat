@@ -2,7 +2,7 @@ body{
     background-image: url("hogwarts.png");
     background-size: cover;
     max-width: 100vw;
-    height: 800px;
+    min-height:900px !important;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -14,3 +14,18 @@ body{
     align-items: center;
 
 }
+h1{
+    font-family: 'Pacifico', cursive;
+}
+.button{
+    background-color: transparent;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+ .button:hover{
+     font-size:30px;
+     margin:2px;
+     border: 1px solid black
+ }
